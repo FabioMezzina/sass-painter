@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -218,6 +219,7 @@ header .header-nav .nav-bottom li a {
   width: 200px;
   font-size: 14px;
   background-color: #666666;
+  cursor: pointer;
 }
 .hero .download .download-button i {
   font-size: 25px;
@@ -307,10 +309,41 @@ header .header-nav .nav-bottom li a {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
+  cursor: pointer;
 }
 .quick-start .intro-video .intro-video-img {
+  position: relative;
   height: 100%;
+  z-index: 1;
 }
 .quick-start .intro-video .intro-video-img img {
   max-height: 100%;
+}
+.quick-start .intro-video .intro-video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.quick-start .intro-video .intro-video-bg img {
+  max-height: 100%;
+  border-radius: 20px;
+}
+.quick-start .intro-video .intro-video-bg::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  padding: 30px;
+  content: "\F04B";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 80px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
 }

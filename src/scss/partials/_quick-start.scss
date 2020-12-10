@@ -24,10 +24,41 @@
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+    cursor: pointer;
     .intro-video-img {
+      position: relative;
       height: 100%;
+      z-index: 1;
       img {
       max-height: 100%;  
+      }
+    }
+    .intro-video-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      img {
+        max-height: 100%;  
+        border-radius: 20px;
+      }
+      &::after {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-flex;
+        justify-content: center;
+        height: 80px;
+        width: 80px;
+        padding: 30px;
+        content: "\f04b";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 80px;
+        color: nth($colors, 1);
+        border: 2px solid nth($colors, 1);
+        border-radius: 50%;
       }
     }
   }

@@ -17,6 +17,7 @@
       width: 200px;
       font-size: nth($font-sizes, 3);
       background-color: nth($bg-colors,3);
+      cursor: pointer;
       i {
         font-size: 25px;
       }
