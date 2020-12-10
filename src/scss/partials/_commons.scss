@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: nth($colors, 1);
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: nth($colors, 3);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0 10px;
+  i {
+    font-size: nth($font-sizes, 4);
+  }
+}

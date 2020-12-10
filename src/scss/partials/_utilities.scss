@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container-lg {
+  width: 1600px;
+}
+
+@for $i from 1 to 13 {
+  .col-#{$i} {
+    width: (100% / (12 / $i));
+  }
+}
+
+.flex {
+  display: flex;
+  &.fd-col {
+    flex-direction: column;
+  }
+  &.fd-row-rev {
+    flex-direction: row-reverse;
+  }
+  &.jc-center {
+    justify-content: center;
+  }
+  &.jc-between {
+    justify-content: space-between;
+  }
+  &.jc-around {
+    justify-content: space-around;
+  }
+  &.jc-evenly {
+    justify-content: space-evenly;
+  }
+  &.ai-center {
+    align-items: center;
+  }
+  &.ai-end {
+    align-items: flex-end;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

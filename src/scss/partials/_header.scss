@@ -1,0 +1,37 @@
+header {
+  padding: 8px;
+  height: 100px;
+  background-color: nth($bg-colors,1);
+  .header-nav {
+    height: 100%;
+    .nav-top {
+      align-self: flex-end;
+      i {
+        margin-right: 5px;
+        font-size: nth($font-sizes, 3);
+        color: nth($colors, 4);
+      }
+      a:hover {
+        color: nth($colors, 1);
+        text-decoration: underline;
+      }
+      select {
+        padding: 1px 2px;
+      }
+    }
+    .nav-bottom {
+      li {
+        margin-right: 40px;
+        height: 50px;
+        line-height: 50px;
+        &.logo {
+          width: 100px;
+        }
+        a {
+          color: nth($colors, 1);
+          font-size: nth($font-sizes, 3);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+.flex.jc-center {
+  justify-content: center;
+}
+between .flex.jc-between {
+  justify-content: space-between;
+}
+.flex.jc-around {
+  justify-content: space-around;
+}
+.flex.jc-evenly {
+  justify-content: space-evenly;
+}
+.flex.ai-center {
+  align-items: center;
+}
+.flex.ai-end {
+  align-items: flex-end;
+}

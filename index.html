@@ -4,13 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Painter</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+  <!-- Fontawesome -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'/>
+  <!-- Style -->
   <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
   <!-- HEADER -->
   <header>
     <!-- Header Nav -->
-    <nav class="header-nav"></nav>
+    <nav class="header-nav container flex fd-col jc-between">
+        <!-- nav top -->
+        <div class="nav-top">
+          <ul class="flex">
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <a href="#">1-877-582-6735</a>
+            </li>
+            <li>
+              <i class="fas fa-comment-alt"></i>
+              <a href="#">Chat</a>
+            </li>
+            <li>
+              <i class="fas fa-user"></i>
+              <a href="#">Sign in</a>
+            </li>
+            <li>
+              <i class="fas fa-shopping-cart"></i>
+              <a href="#">Cart</a>
+            </li>
+            <li>
+              <select name="lang" id="lang">
+                <option value="English">English</option>
+                <option value="Italian">Italian</option>
+                <option value="Spanish">Spanish</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <!-- nav bottom -->
+        <div class="nav-bottom">
+          <ul class="flex">
+            <li class="logo">
+              <img src="../../img/logo_painter" alt="Painter">
+            </li>
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Brushes</a>
+            </li>
+            <li>
+              <a href="#">Wacom Tablets</a>
+            </li>
+            <li>
+              <a href="#">Special Offers</a>
+            </li>
+            <li>
+              <a href="#">Free Trials</a>
+            </li>
+            <li>
+              <a href="#">Business</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Learning</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
     <!-- Hero -->
     <section class="hero"></section>
   </header>
