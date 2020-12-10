@@ -10,6 +10,18 @@ body {
   color: #fff;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
 a {
   font-size: 12px;
   text-decoration: none;
@@ -29,58 +41,73 @@ li i {
 
 .container {
   margin: 0 auto;
+  height: 100%;
   width: 1200px;
 }
 
 .container-lg {
+  margin: 0 auto;
+  height: 100%;
   width: 1600px;
 }
 
 .col-1 {
+  padding: 15px;
   width: 8.3333333333%;
 }
 
 .col-2 {
+  padding: 15px;
   width: 16.6666666667%;
 }
 
 .col-3 {
+  padding: 15px;
   width: 25%;
 }
 
 .col-4 {
+  padding: 15px;
   width: 33.3333333333%;
 }
 
 .col-5 {
+  padding: 15px;
   width: 41.6666666667%;
 }
 
 .col-6 {
+  padding: 15px;
   width: 50%;
 }
 
 .col-7 {
+  padding: 15px;
   width: 58.3333333333%;
 }
 
 .col-8 {
+  padding: 15px;
   width: 66.6666666667%;
 }
 
 .col-9 {
+  padding: 15px;
   width: 75%;
 }
 
 .col-10 {
+  padding: 15px;
   width: 83.3333333333%;
 }
 
 .col-11 {
+  padding: 15px;
   width: 91.6666666667%;
 }
 
 .col-12 {
+  padding: 15px;
   width: 100%;
 }
 
@@ -92,6 +119,9 @@ li i {
 }
 .flex.fd-row-rev {
   flex-direction: row-reverse;
+}
+.flex.jc-end {
+  justify-content: flex-end;
 }
 .flex.jc-center {
   justify-content: center;
@@ -116,12 +146,28 @@ li i {
   text-align: center;
 }
 
-header {
-  padding: 8px;
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+header .header-nav {
   height: 100px;
+  padding: 5px;
   background-color: #101010;
 }
-header .header-nav {
+header .header-nav .container {
   height: 100%;
 }
 header .header-nav .nav-top {
@@ -150,4 +196,67 @@ header .header-nav .nav-bottom li.logo {
 header .header-nav .nav-bottom li a {
   color: #fff;
   font-size: 14px;
+}
+
+.hero {
+  height: 460px;
+  background-image: url("../../img/hero-bg.jpg");
+  background-position: top center;
+}
+.hero .download {
+  height: 100%;
+}
+.hero .download h2,
+.hero .download h3 {
+  font-weight: 400;
+}
+.hero .download li {
+  margin-bottom: 10px;
+}
+.hero .download .download-button {
+  padding: 5px;
+  width: 200px;
+  font-size: 14px;
+  background-color: #666666;
+}
+.hero .download .download-button i {
+  font-size: 25px;
+}
+.hero .buy-now {
+  padding: 50px 15px 0;
+  height: 440px;
+  position: relative;
+  align-self: flex-end;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.hero .buy-now img {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  max-height: 90px;
+  max-width: 90px;
+}
+.hero .buy-now a {
+  font-size: 14px;
+}
+.hero .buy-now .buy-now-btn {
+  align-self: flex-start;
+  min-width: 150px;
+  padding: 7px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #28acff;
+  border: 0;
+}
+.hero .buy-now .offer {
+  padding: 10px;
+  color: #333333;
+  background-color: #f6f6f6;
+}
+.hero .buy-now .offer span {
+  font-size: 14px;
+}
+.hero .buy-now .offer a {
+  color: #009cff;
 }

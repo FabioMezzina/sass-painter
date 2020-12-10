@@ -1,0 +1,64 @@
+.hero {
+  height: 460px;
+  background-image: url('../../img/hero-bg.jpg');
+  background-position: top center;
+  .download {
+    height: 100%;
+    h2,
+    h3 {
+      font-weight: 400;
+
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .download-button {
+      padding: 5px;
+      width: 200px;
+      font-size: nth($font-sizes, 3);
+      background-color: nth($bg-colors,3);
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .buy-now {
+    padding: 50px 15px 0;
+    height: 440px;
+    position: relative;
+    align-self: flex-end;
+    background-color: rgba(0,0,0,.9);
+    img {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      max-height: 90px;
+      max-width: 90px;
+    }
+    a {
+      font-size: nth($font-sizes, 3);
+    }
+    .buy-now-btn {
+      align-self: flex-start;
+      min-width: 150px;
+      padding: 7px 20px;
+      font-size: nth($font-sizes, 3);
+      color: nth($colors, 1);
+      background-color: nth($bg-colors, 4);
+      border: 0;
+    }
+    .offer {
+      padding: 10px;
+      color: nth($colors, 2);
+      background-color: nth($bg-colors, 5);
+      span {
+        font-size: nth($font-sizes, 3);
+      }
+      a {
+        color: #009cff;
+      }
+    }
+  }
+}

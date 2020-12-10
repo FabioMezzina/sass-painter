@@ -6,8 +6,21 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: nth($font-sizes, 1);
   color: nth($colors, 1);
+}
+
+// TYPOGRAPHY
+h2 {
+  font-size: nth($title-fsz, 1);
+}
+
+h3 {
+  font-size: nth($title-fsz, 2);
+}
+
+h4 {
+  font-size: nth($title-fsz, 3);
 }
 
 a {

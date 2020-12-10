@@ -1,14 +1,18 @@
 .container {
   margin: 0 auto;
+  height: 100%;
   width: 1200px;
 }
 
 .container-lg {
+  margin: 0 auto;
+  height: 100%;
   width: 1600px;
 }
 
 @for $i from 1 to 13 {
   .col-#{$i} {
+    padding: 15px;
     width: (100% / (12 / $i));
   }
 }
@@ -20,6 +24,9 @@
   }
   &.fd-row-rev {
     flex-direction: row-reverse;
+  }
+  &.jc-end {
+    justify-content: flex-end;
   }
   &.jc-center {
     justify-content: center;
@@ -43,4 +50,17 @@
 
 .text-center {
   text-align: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-5 {
+  margin-bottom: 5px;
 }
