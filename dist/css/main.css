@@ -281,3 +281,36 @@ header .header-nav .nav-bottom li a {
 .product-nav ul li a {
   font-size: 18px;
 }
+
+.quick-start {
+  position: relative;
+  padding: 80px 0 0;
+  height: 900px;
+  background-image: url("../../img/intro.jpg");
+  background-size: cover;
+}
+.quick-start h2 {
+  font-weight: 400;
+}
+.quick-start .quick-pdf i {
+  color: #989898;
+  font-size: 32px;
+}
+.quick-start .quick-pdf a {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.quick-start .intro-video {
+  height: 570px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.quick-start .intro-video .intro-video-img {
+  height: 100%;
+}
+.quick-start .intro-video .intro-video-img img {
+  max-height: 100%;
+}
