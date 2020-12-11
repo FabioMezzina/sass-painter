@@ -1,0 +1,12 @@
+.bg-attach {
+  height: 650px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &.first {
+    background-image: url(../../img/bg-attach-first.jpg);
+  }
+  &.second {
+    background-image: url(../../img/bg-attach-second.jpg);
+  }
+}

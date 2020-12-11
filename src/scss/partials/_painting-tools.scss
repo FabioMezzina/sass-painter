@@ -1,0 +1,30 @@
+.painting-tools {
+  padding: 80px 0;
+  background-color: nth($bg-colors, 6);
+}
+
+.tools-overview {
+  margin: 0 auto 80px;
+  max-width: 1000px;
+  h2 {
+    font-weight: 400;
+  }
+  .painting-tools-img {
+    margin: 0 auto;
+    max-width: 770px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.tools-text {
+  padding: 0 40px;
+  h4 {
+    font-weight: 400;
+  }
+}
+
+.tools-img img {
+  max-width: 100%;
+}
