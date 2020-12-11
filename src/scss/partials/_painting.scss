@@ -1,0 +1,33 @@
+.painting {
+  padding: 80px 0;
+  color: nth($colors, 2);
+  .container {
+    max-width: 1000px;
+  }
+  h2 {
+    font-weight: 400;
+  }
+}
+
+.painting-img {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  img {
+    display: block;
+    width: 100%;
+  }
+  i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: nth($colors, 5);
+    &.left {
+      left: -40px;
+    }
+    &.right {
+      right: -40px;
+    }
+  }
+}

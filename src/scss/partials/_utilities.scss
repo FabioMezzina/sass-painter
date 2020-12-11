@@ -10,7 +10,7 @@
   width: 1600px;
 }
 
-@for $i from 1 to 13 {
+@for $i from 1 through 12 {
   .col-#{$i} {
     padding: 15px;
     width: (100% / (12 / $i));
@@ -52,15 +52,9 @@
   text-align: center;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
-}
-.mb-20 {
-  margin-bottom: 20px;
-}
-.mb-10 {
-  margin-bottom: 10px;
-}
-.mb-5 {
-  margin-bottom: 5px;
+
+@for $i from 1 through 6 {
+  .mb-#{$i * 10} {
+    margin-bottom: $i * 10px;
+  }
 }
