@@ -1,0 +1,18 @@
+.brushpacks {
+  height: 590px;
+  background-image: url('../../img/brushpacks-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brush-wrapper {
+  margin: 0 15px;
+  padding: 60px 40px;
+  width: 470px;
+  height: 330px;
+  color: nth($colors, 2);
+  background-color: #fff;
+  h4 {
+    font-weight: 400;
+  }
+}

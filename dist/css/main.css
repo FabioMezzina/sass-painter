@@ -468,3 +468,22 @@ header .header-nav .nav-bottom li a {
   transform: translateX(-50%);
   color: #fff;
 }
+
+.brushpacks {
+  height: 590px;
+  background-image: url("../../img/brushpacks-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brush-wrapper {
+  margin: 0 15px;
+  padding: 60px 40px;
+  width: 470px;
+  height: 330px;
+  color: #333333;
+  background-color: #fff;
+}
+.brush-wrapper h4 {
+  font-weight: 400;
+}
